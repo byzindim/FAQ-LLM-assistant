@@ -1,0 +1,22 @@
+[
+  {"question": "Сколько дней отпуска мне положено?", "expected": "28 календарных дней", "category": "hr"},
+  {"question": "Можно ли разделить отпуск на части?", "expected": "Да, но хотя бы одна часть не менее 14 дней", "category": "hr"},
+  {"question": "За сколько дней нужно подавать заявление на отпуск?", "expected": "За 2 недели", "category": "hr"},
+  {"question": "Кто оплачивает первые дни больничного?", "expected": "Работодатель оплачивает первые 3 дня", "category": "hr"},
+  {"question": "Когда выплачиваются премии?", "expected": "До 10 числа месяца, следующего за кварталом", "category": "hr"},
+  {"question": "Как часто выплачиваются премии?", "expected": "Ежеквартально", "category": "hr"},
+  {"question": "Можно ли работать удалённо?", "expected": "До 3 дней в неделю по согласованию", "category": "hr"},
+  {"question": "Как получить доступ к корпоративной почте?", "expected": "Почта выдаётся в первый рабочий день", "category": "it"},
+  {"question": "Какой формат корпоративной почты?", "expected": "firstname.lastname@company.ru", "category": "it"},
+  {"question": "Как получить доступ к VPN?", "expected": "Заявка через ServiceDesk, категория Сеть/VPN", "category": "it"},
+  {"question": "Сколько ждать получения VPN?", "expected": "До 2 рабочих дней", "category": "it"},
+  {"question": "Какой VPN-клиент нужен?", "expected": "Cisco AnyConnect", "category": "it"},
+  {"question": "Как запросить доступ к 1С?", "expected": "Руководитель через заявку в ServiceDesk", "category": "it"},
+  {"question": "Как сбросить пароль от почты?", "expected": "Через портал self-service или заявку в ServiceDesk", "category": "it"},
+  {"question": "Сколько времени занимает сброс пароля?", "expected": "До 1 часа в рабочее время", "category": "it"},
+  {"question": "Когда выдаётся ноутбук?", "expected": "В первый рабочий день", "category": "equipment"},
+  {"question": "Какой ноутбук выдадут разработчику?", "expected": "MacBook Pro или ThinkPad P series", "category": "equipment"},
+  {"question": "Что нужно сделать при получении техники?", "expected": "Подписать акт приёма-передачи", "category": "equipment"},
+  {"question": "Куда подавать заявку на ремонт техники?", "expected": "В ServiceDesk, категория Оборудование", "category": "equipment"},
+  {"question": "Есть ли подменный ноутбук на время ремонта?", "expected": "Да, подменный фонд доступен", "category": "equipment"}
+]

@@ -1,0 +1,1268 @@
+[
+  {
+    "question": "Сколько дней отпуска мне положено?",
+    "expected": "28 календарных дней",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Можно ли разделить отпуск на части?",
+    "expected": "Да, но хотя бы одна часть не менее 14 дней",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "За сколько дней нужно подавать заявление на отпуск?",
+    "expected": "За 2 недели",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Кто оплачивает первые дни больничного?",
+    "expected": "Работодатель оплачивает первые 3 дня",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Когда выплачиваются премии?",
+    "expected": "До 10 числа месяца, следующего за кварталом",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как часто выплачиваются премии?",
+    "expected": "Ежеквартально",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Можно ли работать удалённо?",
+    "expected": "До 3 дней в неделю по согласованию",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Что делать, если заболел в отпуске?",
+    "expected": "Отпуск продлевается на дни болезни",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Как оформить декретный отпуск?",
+    "expected": "Заявление в HR + больничный лист",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Какие документы нужны для больничного?",
+    "expected": "Электронный больничный лист",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли получить премию, если уволился в середине квартала?",
+    "expected": "Нет, премия только действующим сотрудникам",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Можно ли взять отпуск за свой счёт?",
+    "expected": "Да, по согласованию с руководителем",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как оформить командировку?",
+    "expected": "Заявка через руководителя + билеты через HR",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Кто оплачивает командировочные расходы?",
+    "expected": "Компания по чекам",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Какой суточный лимит в командировке?",
+    "expected": "1500 рублей в день",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Можно ли взять отгул за переработку?",
+    "expected": "Да, по согласованию с руководителем",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как оформить переработку?",
+    "expected": "Заявление на имя руководителя",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Оплачивается ли переработка?",
+    "expected": "Да, в двойном размере или отгулом",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Какой график работы в компании?",
+    "expected": "5/2 с 9:00 до 18:00",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Можно ли начать работу раньше 9:00?",
+    "expected": "Да, гибкий график с 8:00 до 10:00",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Есть ли обеденный перерыв?",
+    "expected": "1 час с 13:00 до 14:00",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Где можно поесть в офисе?",
+    "expected": "Столовая на 2 этаже или кафе рядом",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Компенсирует ли компания обеды?",
+    "expected": "Да, 300 рублей в день по карте",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Есть ли парковка для сотрудников?",
+    "expected": "Да, бесплатная на подземной парковке",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Как получить пропуск на парковку?",
+    "expected": "Заявка в HR + номер автомобиля",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли приводить гостей в офис?",
+    "expected": "Только по предварительной заявке",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Есть ли комната отдыха?",
+    "expected": "Да, на 3 этаже с диванами и PlayStation",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Как записаться на корпоративное мероприятие?",
+    "expected": "Через внутренний портал или HR",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Проводит ли компания тимбилдинги?",
+    "expected": "Да, раз в квартал",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Есть ли ДМС у сотрудников?",
+    "expected": "Да, после 3 месяцев работы",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Что покрывает ДМС?",
+    "expected": "Стоматология, терапевт, анализы",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли включить в ДМС родственников?",
+    "expected": "Да, за доплату 50%",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Как получить справку 2-НДФЛ?",
+    "expected": "Запрос в бухгалтерию или через HR-портал",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Когда приходит зарплата?",
+    "expected": "5 и 20 числа каждого месяца",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Можно ли получить аванс?",
+    "expected": "Да, до 30% оклада по заявлению",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как изменить реквизиты для зарплаты?",
+    "expected": "Заявление в бухгалтерию с новыми реквизитами",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Есть ли система грейдов в компании?",
+    "expected": "Да, от Junior до Principal",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Как происходит повышение?",
+    "expected": "Performance review раз в полгода",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Кто проводит performance review?",
+    "expected": "Руководитель + HR + коллеги (360)",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Можно ли отказаться от performance review?",
+    "expected": "Нет, это обязательная процедура",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Что делать при конфликте с коллегой?",
+    "expected": "Обратиться к руководителю или HR",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Есть ли анонимная горячая линия?",
+    "expected": "Да, ethics@company.ru",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Как сообщить о нарушении?",
+    "expected": "Через горячую линию или напрямую HR",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Защищает ли компания от дискриминации?",
+    "expected": "Да, политика zero-tolerance",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Можно ли работать неполный день?",
+    "expected": "Да, по согласованию с руководителем",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как оформить сокращённую ставку?",
+    "expected": "Заявление в HR + согласие руководителя",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Влияет ли неполная ставка на отпуск?",
+    "expected": "Нет, отпуск пропорционально отработанному",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Можно ли совмещать работу с учёбой?",
+    "expected": "Да, учебный отпуск по справке",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Оплачивается ли учебный отпуск?",
+    "expected": "Да, в размере среднего заработка",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Сколько дней учебного отпуска положено?",
+    "expected": "До 40 дней в год",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Есть ли программа wellbeing?",
+    "expected": "Да, психолог + фитнес + питание",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как записаться к корпоративному психологу?",
+    "expected": "Через HR-портал, анонимно",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Сколько сессий с психологом положено?",
+    "expected": "До 10 в год бесплатно",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Конфиденциальны ли сессии с психологом?",
+    "expected": "Да, полностью",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли взять саббатикал?",
+    "expected": "Да, после 3 лет работы, до 3 месяцев",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Оплачивается ли саббатикал?",
+    "expected": "Частично, 30% оклада",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Сохраняется ли должность на время саббатикала?",
+    "expected": "Да, или аналогичная",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Есть ли программа релокации?",
+    "expected": "Да, в другие офисы компании",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Компенсирует ли компания переезд?",
+    "expected": "Да, до 200000 рублей",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Помогает ли компания с поиском жилья?",
+    "expected": "Да, через партнёрские агентства",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Есть ли помощь с детским садом?",
+    "expected": "Да, компенсация 50%",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Как получить компенсацию за детский сад?",
+    "expected": "Заявка в HR + договор с садом",
+    "category": "hr",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Есть ли комната для кормления?",
+    "expected": "Да, на каждом этаже",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли брать детей в офис?",
+    "expected": "Да, в комнату для детей",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Есть ли корпоративный транспорт?",
+    "expected": "Да, от метро до офиса",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Как получить пропуск на корпоративный транспорт?",
+    "expected": "Через HR-портал",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Есть ли корпоративные мероприятия для семей?",
+    "expected": "Да, раз в год",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Как записаться на семейное мероприятие?",
+    "expected": "Через HR-портал",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Оплачивает ли компания участие семьи?",
+    "expected": "Да, полностью",
+    "category": "hr",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Есть ли дресс-код в компании?",
+    "expected": "Casual, кроме встреч с клиентами",
+    "category": "hr",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Как получить доступ к корпоративной почте?",
+    "expected": "Почта выдаётся в первый рабочий день",
+    "category": "it",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Какой формат корпоративной почты?",
+    "expected": "firstname.lastname@company.ru",
+    "category": "it",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Как получить доступ к VPN?",
+    "expected": "Заявка через ServiceDesk, категория Сеть/VPN",
+    "category": "it",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Сколько ждать получения VPN?",
+    "expected": "До 2 рабочих дней",
+    "category": "it",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Какой VPN-клиент нужен?",
+    "expected": "Cisco AnyConnect",
+    "category": "it",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Как запросить доступ к 1С?",
+    "expected": "Руководитель через заявку в ServiceDesk",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как сбросить пароль от почты?",
+    "expected": "Через портал self-service или заявку в ServiceDesk",
+    "category": "it",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Сколько времени занимает сброс пароля?",
+    "expected": "До 1 часа в рабочее время",
+    "category": "it",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Как получить пропуск в офис?",
+    "expected": "Заявка в службу безопасности через HR",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Какой антивирус установлен на корпоративных ПК?",
+    "expected": "Kaspersky Endpoint Security",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли установить свои программы на рабочий ноутбук?",
+    "expected": "Только по согласованию с IT-отделом",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как подключиться к корпоративному Wi-Fi?",
+    "expected": "Логин и пароль от корпоративной почты",
+    "category": "it",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Что делать, если забыл пароль от Wi-Fi?",
+    "expected": "Сброс через self-service или заявка в IT",
+    "category": "it",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Как получить доступ к корпоративному облаку?",
+    "expected": "Заявка через ServiceDesk",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Какой объём хранилища в корпоративном облаке?",
+    "expected": "100 GB на сотрудника",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Можно ли хранить личные файлы на корпоративном облаке?",
+    "expected": "Нет, только рабочие файлы",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как получить доступ к GitHub компании?",
+    "expected": "Заявка через руководителя в IT",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Какой процесс code review?",
+    "expected": "Минимум 2 аппрува от коллег",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Есть ли CI/CD пайплайн?",
+    "expected": "Да, GitLab CI с автотестами",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Как деплоить в продакшн?",
+    "expected": "Через merge request + approval",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Кто отвечает за инциденты?",
+    "expected": "On-call инженер по графику",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Как сообщить об инциденте?",
+    "expected": "В канал #incidents в Slack",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Есть ли runbook для частых инцидентов?",
+    "expected": "Да, в Confluence",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Как получить доступ к продакшн-серверам?",
+    "expected": "Только через bastion host + 2FA",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Можно ли хранить пароли в коде?",
+    "expected": "Нет, только через secrets manager",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Какой secrets manager используется?",
+    "expected": "HashiCorp Vault",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Как запросить новый сервис в инфраструктуре?",
+    "expected": "Тикет в IT с обоснованием",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Есть ли лимит на облачные ресурсы?",
+    "expected": "Да, по бюджету проекта",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Кто оплачивает облачные сервисы?",
+    "expected": "Компания, в рамках бюджета",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли использовать личные облачные аккаунты?",
+    "expected": "Нет, только корпоративные",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как получить доступ к базам данных?",
+    "expected": "Заявка + обучение по безопасности",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Есть ли тестовые окружения?",
+    "expected": "Да, dev/staging/prod",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как получить доступ к staging?",
+    "expected": "Через заявку в IT",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли тестировать на продакшн-данных?",
+    "expected": "Нет, только анонимизированные копии",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Как запросить анонимизированные данные?",
+    "expected": "Заявка в Data Team",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Есть ли обучение по безопасности?",
+    "expected": "Да, обязательное раз в год",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Что делать при утечке данных?",
+    "expected": "Немедленно сообщить в security@company.ru",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Как защитить корпоративную почту от фишинга?",
+    "expected": "2FA + не открывать подозрительные ссылки",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли использовать USB-флешки?",
+    "expected": "Только корпоративные, зашифрованные",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как зашифровать флешку?",
+    "expected": "Через BitLocker или VeraCrypt",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Есть ли политика clean desk?",
+    "expected": "Да, убирать документы со стола",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли фотографировать в офисе?",
+    "expected": "Только общие зоны, без экранов",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как утилизировать старые документы?",
+    "expected": "Через шредер или спец. контейнеры",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Есть ли политика work from anywhere?",
+    "expected": "Да, до 2 недель в месяц из любой страны",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Нужно ли согласовывать работу из другой страны?",
+    "expected": "Да, за 2 недели через HR",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Компенсирует ли компания интернет дома?",
+    "expected": "Да, 500 рублей в месяц",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как получить компенсацию за интернет?",
+    "expected": "Заявка в HR + чек",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Есть ли компенсация за электричество?",
+    "expected": "Нет, только интернет",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли получить эргономичное кресло?",
+    "expected": "Да, по мед. показаниям или заявке",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Выдают ли мониторы для дома?",
+    "expected": "Да, один монитор по заявке",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли получить веб-камеру?",
+    "expected": "Да, для удалённой работы",
+    "category": "it",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Есть ли корпоративные скидки?",
+    "expected": "Да, на фитнес, обучение, технику",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как получить скидку на фитнес?",
+    "expected": "Через HR-портал, раздел Benefits",
+    "category": "it",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Компенсирует ли компания обучение?",
+    "expected": "Да, до 50000 рублей в год",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как запросить компенсацию обучения?",
+    "expected": "Заявка в HR + программа курса",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли учиться в рабочее время?",
+    "expected": "Да, до 4 часов в неделю",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Есть ли менторство для новичков?",
+    "expected": "Да, наставник на первые 3 месяца",
+    "category": "it",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Как стать ментором?",
+    "expected": "Заявка в HR + опыт от 2 лет",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Оплачивается ли менторство?",
+    "expected": "Да, бонус 10% к окладу",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Есть ли внутренний job market?",
+    "expected": "Да, можно менять отделы через HR",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как перейти в другой отдел?",
+    "expected": "Собеседование + согласие текущего руководителя",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Можно ли отказаться от перехода?",
+    "expected": "Да, без последствий",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как уволиться из компании?",
+    "expected": "Заявление за 2 недели",
+    "category": "it",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Есть ли exit interview?",
+    "expected": "Да, с HR в последний день",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Что происходит с неиспользованным отпуском при увольнении?",
+    "expected": "Компенсируется деньгами",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Когда приходит финальный расчёт?",
+    "expected": "В последний рабочий день",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли вернуться в компанию после увольнения?",
+    "expected": "Да, через 6 месяцев",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Сохраняется ли стаж при возвращении?",
+    "expected": "Да, частично",
+    "category": "it",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Есть ли программа рефералов?",
+    "expected": "Да, бонус 50000 за рекомендацию",
+    "category": "it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как оформить реферала?",
+    "expected": "Через HR-портал, раздел Referrals",
+    "category": "it",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Когда выдаётся ноутбук?",
+    "expected": "В первый рабочий день",
+    "category": "equipment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Какой ноутбук выдадут разработчику?",
+    "expected": "MacBook Pro или ThinkPad P series",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Что нужно сделать при получении техники?",
+    "expected": "Подписать акт приёма-передачи",
+    "category": "equipment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Куда подавать заявку на ремонт техники?",
+    "expected": "В ServiceDesk, категория Оборудование",
+    "category": "equipment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Есть ли подменный ноутбук на время ремонта?",
+    "expected": "Да, подменный фонд доступен",
+    "category": "equipment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Какой лимит на мобильную связь?",
+    "expected": "1000 рублей в месяц",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Кто оплачивает превышение лимита мобильной связи?",
+    "expected": "Сотрудник оплачивает превышение",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как запросить второй монитор?",
+    "expected": "Заявка в ServiceDesk, категория Оборудование",
+    "category": "equipment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Выдают ли наушники для удалёнки?",
+    "expected": "Да, по заявке в ServiceDesk",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли обменять ноутбук на более мощный?",
+    "expected": "Да, с обоснованием через руководителя",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Что делать, если сломался ноутбук дома?",
+    "expected": "Заявка в ServiceDesk, диагностика 1 день",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Есть ли компенсация за использование личного ноутбука?",
+    "expected": "Нет, компания выдаёт технику",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Как получить доступ к корпоративному телефону?",
+    "expected": "Заявка в IT-отдел",
+    "category": "equipment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Какой тариф на корпоративном телефоне?",
+    "expected": "Базовый тариф с безлимитными звонками внутри компании",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли использовать корпоративный телефон в личных целях?",
+    "expected": "Да, в разумных пределах",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Что делать, если потерял корпоративный телефон?",
+    "expected": "Немедленно сообщить в IT и заблокировать SIM",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Как получить новый зарядное устройство?",
+    "expected": "Заявка в ServiceDesk",
+    "category": "equipment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Выдают ли мышки и клавиатуры?",
+    "expected": "Да, по заявке",
+    "category": "equipment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Можно ли выбрать модель мышки?",
+    "expected": "Да, из списка доступных",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как получить адаптер для MacBook?",
+    "expected": "Заявка в IT + обоснование",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Выдают ли внешние мониторы?",
+    "expected": "Да, до 2 мониторов на сотрудника",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Какой размер монитора положен?",
+    "expected": "24 дюйма, по заявке можно 27",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли получить 4K монитор?",
+    "expected": "Да, для дизайнеров и разработчиков",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Как получить docking station?",
+    "expected": "Заявка в IT для MacBook",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Выдают ли гарнитуры для конференций?",
+    "expected": "Да, по заявке",
+    "category": "equipment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Какая гарнитура доступна?",
+    "expected": "Jabra или Polycom",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли получить веб-камеру высокого качества?",
+    "expected": "Да, для frequent remote workers",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как получить доступ к принтеру?",
+    "expected": "Автоматически при найме, печать по пропуску",
+    "category": "equipment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Есть ли лимит на печать?",
+    "expected": "Да, 500 страниц в месяц",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли печатать личные документы?",
+    "expected": "Нет, только рабочие",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как получить сканер?",
+    "expected": "Использовать МФУ в офисе или заявка",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Есть ли планшет для работы?",
+    "expected": "Да, для полевых сотрудников",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Какой планшет выдаётся?",
+    "expected": "iPad Pro или Samsung Galaxy Tab",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Можно ли получить второй ноутбук?",
+    "expected": "Да, с обоснованием для разных проектов",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Как получить доступ к тестовым устройствам?",
+    "expected": "Через лабораторию оборудования",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Есть ли библиотека устройств для тестирования?",
+    "expected": "Да, разные модели телефонов и планшетов",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Как забронировать тестовое устройство?",
+    "expected": "Через внутренний портал",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "На сколько дней можно взять тестовое устройство?",
+    "expected": "До 2 недель",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Что делать, если тестовое устройство сломалось?",
+    "expected": "Сообщить в IT, компания чинит",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли взять технику домой на выходные?",
+    "expected": "Да, с разрешения руководителя",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Нужна ли расписка при выносе техники?",
+    "expected": "Да, через службу безопасности",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как оформить возврат техники при увольнении?",
+    "expected": "Сдать всё в IT в последний день",
+    "category": "equipment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Что входит в комплект при увольнении?",
+    "expected": "Ноутбук, зарядка, пропуск, телефон",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли выкупить технику после увольнения?",
+    "expected": "Да, по остаточной стоимости",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Как рассчитывается остаточная стоимость?",
+    "expected": "По формуле амортизации 3 года",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Есть ли страхование техники?",
+    "expected": "Да, компания страхует всю технику",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Что делать, если украли корпоративный ноутбук?",
+    "expected": "Заявление в полицию + уведомить IT и СБ",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Кто оплачивает украденную технику?",
+    "expected": "Компания, если был заявлен инцидент",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Можно ли установить Linux на корпоративный ноутбук?",
+    "expected": "Да, для разработчиков с разрешения IT",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Как получить root-права на рабочем ПК?",
+    "expected": "Только через IT, с обоснованием",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Можно ли отключить антивирус?",
+    "expected": "Нет, только через IT для тестов",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как получить доступ к корпоративному хранилищу?",
+    "expected": "Автоматически при найме, 100 GB",
+    "category": "equipment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Что делать, если хранилище заполнилось?",
+    "expected": "Заявка в IT на расширение или очистка",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли получить дополнительное хранилище?",
+    "expected": "Да, до 500 GB с обоснованием",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Есть ли резервное копирование данных?",
+    "expected": "Да, автоматическое nightly backup",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как восстановить удалённый файл?",
+    "expected": "Через IT из бэкапа, до 30 дней",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли использовать Dropbox?",
+    "expected": "Нет, только корпоративное облако",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как получить доступ к Google Workspace?",
+    "expected": "Автоматически через корпоративную почту",
+    "category": "equipment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Есть ли корпоративный Slack?",
+    "expected": "Да, для всех сотрудников",
+    "category": "equipment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Как получить доступ к Jira?",
+    "expected": "Через руководителя + заявка в IT",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Можно ли использовать Trello вместо Jira?",
+    "expected": "Нет, только корпоративные инструменты",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как получить доступ к Confluence?",
+    "expected": "Автоматически при найме",
+    "category": "equipment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Есть ли корпоративный Figma?",
+    "expected": "Да, для дизайнеров и продактов",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как получить лицензию на Adobe?",
+    "expected": "Заявка через руководителя + обоснование",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Можно ли использовать личный софт?",
+    "expected": "Нет, только корпоративный",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Как запросить новую лицензию?",
+    "expected": "Тикет в IT с обоснованием",
+    "category": "equipment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Есть ли лимит на лицензии?",
+    "expected": "Да, по бюджету отдела",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Кто оплачивает подписки на софт?",
+    "expected": "Компания",
+    "category": "equipment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Можно ли получить подписку на ChatGPT?",
+    "expected": "Да, для продактов и аналитиков",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Как получить доступ к Copilot?",
+    "expected": "Заявка в IT + обоснование",
+    "category": "equipment",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Есть ли корпоративный Midjourney?",
+    "expected": "Да, для дизайнеров",
+    "category": "equipment",
+    "difficulty": "hard"
+  }
+]

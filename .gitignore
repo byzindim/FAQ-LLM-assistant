@@ -1,0 +1,30 @@
+# === COLAB & ENVIRONMENT ===
+.config/
+drive/
+sample_data/
+*.ipynb
+.ipynb_checkpoints/
+
+# === LOGS & TEMP ===
+ollama.log
+uvicorn.log
+*.tmp
+*.bak
+*.log
+
+# === LARGE AI FILES (Храним только на Google Drive!) ===
+*.faiss
+*.pkl
+*.bin
+*.safetensors
+rag_artifacts/
+
+# === SECRETS ===
+.env
+.env.local
+*.key
+*.pem
+
+# === DOCKER ===
+.docker/
+docker-compose.override.yml

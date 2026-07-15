@@ -1,0 +1,1901 @@
+[
+  {
+    "id": 0,
+    "question": "Сколько дней отпуска мне положено?",
+    "expected": "28 календарных дней",
+    "actual_answer": "28 календарных дней",
+    "intent": "faq",
+    "latency_ms": 31969,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 1,
+    "question": "Можно ли разделить отпуск на части?",
+    "expected": "Да, но хотя бы одна часть не менее 14 дней",
+    "actual_answer": "Да, но хотя бы одна часть не менее 14 дней",
+    "intent": "faq",
+    "latency_ms": 9623,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 2,
+    "question": "За сколько дней нужно подавать заявление на отпуск?",
+    "expected": "За 2 недели",
+    "actual_answer": "За 2 недели",
+    "intent": "faq",
+    "latency_ms": 6787,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 3,
+    "question": "Кто оплачивает первые дни больничного?",
+    "expected": "Работодатель оплачивает первые 3 дня",
+    "actual_answer": "Работодатель оплачивает первые 3 дня",
+    "intent": "faq",
+    "latency_ms": 5040,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 4,
+    "question": "Когда выплачиваются премии?",
+    "expected": "До 10 числа месяца, следующего за кварталом",
+    "actual_answer": "До 10 числа месяца, следующего за кварталом",
+    "intent": "faq",
+    "latency_ms": 7319,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 5,
+    "question": "Как часто выплачиваются премии?",
+    "expected": "Ежеквартально",
+    "actual_answer": "Ежеквартально",
+    "intent": "faq",
+    "latency_ms": 4152,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 6,
+    "question": "Можно ли работать удалённо?",
+    "expected": "До 3 дней в неделю по согласованию",
+    "actual_answer": "До 3 дней в неделю по согласованию",
+    "intent": "faq",
+    "latency_ms": 4898,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 7,
+    "question": "Что делать, если заболел в отпуске?",
+    "expected": "Отпуск продлевается на дни болезни",
+    "actual_answer": "Отпуск продлевается на дни болезни",
+    "intent": "faq",
+    "latency_ms": 3450,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 8,
+    "question": "Как оформить декретный отпуск?",
+    "expected": "Заявление в HR + больничный лист",
+    "actual_answer": "Заявление в HR + больничный лист",
+    "intent": "faq",
+    "latency_ms": 4431,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 9,
+    "question": "Какие документы нужны для больничного?",
+    "expected": "Электронный больничный лист",
+    "actual_answer": "Электронный больничный лист",
+    "intent": "faq",
+    "latency_ms": 2738,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 10,
+    "question": "Можно ли получить премию, если уволился в середине квартала?",
+    "expected": "Нет, премия только действующим сотрудникам",
+    "actual_answer": "Нет, премия только действующим сотрудникам",
+    "intent": "faq",
+    "latency_ms": 18715,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 11,
+    "question": "Можно ли взять отпуск за свой счёт?",
+    "expected": "Да, по согласованию с руководителем",
+    "actual_answer": "Да, по согласованию с руководителем",
+    "intent": "faq",
+    "latency_ms": 4862,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 12,
+    "question": "Как оформить командировку?",
+    "expected": "Заявка через руководителя + билеты через HR",
+    "actual_answer": "Заявка через руководителя + билеты через HR",
+    "intent": "faq",
+    "latency_ms": 3480,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 13,
+    "question": "Кто оплачивает командировочные расходы?",
+    "expected": "Компания по чекам",
+    "actual_answer": "Компания по чекам",
+    "intent": "faq",
+    "latency_ms": 6593,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 14,
+    "question": "Какой суточный лимит в командировке?",
+    "expected": "1500 рублей в день",
+    "actual_answer": "1500 рублей в день",
+    "intent": "faq",
+    "latency_ms": 7589,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 15,
+    "question": "Можно ли взять отгул за переработку?",
+    "expected": "Да, по согласованию с руководителем",
+    "actual_answer": "Да, по согласованию с руководителем",
+    "intent": "faq",
+    "latency_ms": 4671,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 16,
+    "question": "Как оформить переработку?",
+    "expected": "Заявление на имя руководителя",
+    "actual_answer": "Заявление на имя руководителя",
+    "intent": "faq",
+    "latency_ms": 4159,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 17,
+    "question": "Оплачивается ли переработка?",
+    "expected": "Да, в двойном размере или отгулом",
+    "actual_answer": "Да, в двойном размере или отгулом",
+    "intent": "faq",
+    "latency_ms": 5146,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 18,
+    "question": "Какой график работы в компании?",
+    "expected": "5/2 с 9:00 до 18:00",
+    "actual_answer": "5/2 с 9:00 до 18:00",
+    "intent": "faq",
+    "latency_ms": 4508,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 19,
+    "question": "Можно ли начать работу раньше 9:00?",
+    "expected": "Да, гибкий график с 8:00 до 10:00",
+    "actual_answer": "Да, гибкий график с 8:00 до 10:00",
+    "intent": "faq",
+    "latency_ms": 6866,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 20,
+    "question": "Есть ли обеденный перерыв?",
+    "expected": "1 час с 13:00 до 14:00",
+    "actual_answer": "1 час с 13:00 до 14:00",
+    "intent": "faq",
+    "latency_ms": 3586,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 21,
+    "question": "Где можно поесть в офисе?",
+    "expected": "Столовая на 2 этаже или кафе рядом",
+    "actual_answer": "Столовая на 2 этаже или кафе рядом",
+    "intent": "faq",
+    "latency_ms": 4835,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 22,
+    "question": "Компенсирует ли компания обеды?",
+    "expected": "Да, 300 рублей в день по карте",
+    "actual_answer": "Да, 300 рублей в день по карте",
+    "intent": "faq",
+    "latency_ms": 5568,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 23,
+    "question": "Есть ли парковка для сотрудников?",
+    "expected": "Да, бесплатная на подземной парковке",
+    "actual_answer": "Да, бесплатная на подземной парковке",
+    "intent": "faq",
+    "latency_ms": 5297,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 24,
+    "question": "Как получить пропуск на парковку?",
+    "expected": "Заявка в HR + номер автомобиля",
+    "actual_answer": "Заявка в HR + номер автомобиля",
+    "intent": "faq",
+    "latency_ms": 3558,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 25,
+    "question": "Можно ли приводить гостей в офис?",
+    "expected": "Только по предварительной заявке",
+    "actual_answer": "Только по предварительной заявке",
+    "intent": "faq",
+    "latency_ms": 5685,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 26,
+    "question": "Есть ли комната отдыха?",
+    "expected": "Да, на 3 этаже с диванами и PlayStation",
+    "actual_answer": "Да, на 3 этаже с диванами и PlayStation",
+    "intent": "faq",
+    "latency_ms": 4600,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 27,
+    "question": "Как записаться на корпоративное мероприятие?",
+    "expected": "Через внутренний портал или HR",
+    "actual_answer": "Через внутренний портал или HR",
+    "intent": "faq",
+    "latency_ms": 3811,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 28,
+    "question": "Проводит ли компания тимбилдинги?",
+    "expected": "Да, раз в квартал",
+    "actual_answer": "Да, раз в квартал",
+    "intent": "faq",
+    "latency_ms": 4123,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 29,
+    "question": "Есть ли ДМС у сотрудников?",
+    "expected": "Да, после 3 месяцев работы",
+    "actual_answer": "Да, после 3 месяцев работы",
+    "intent": "faq",
+    "latency_ms": 5790,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 30,
+    "question": "Что покрывает ДМС?",
+    "expected": "Стоматология, терапевт, анализы",
+    "actual_answer": "Стоматология, терапевт, анализы",
+    "intent": "faq",
+    "latency_ms": 4350,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 31,
+    "question": "Можно ли включить в ДМС родственников?",
+    "expected": "Да, за доплату 50%",
+    "actual_answer": "Да, за доплату 50%",
+    "intent": "faq",
+    "latency_ms": 5092,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 32,
+    "question": "Как получить справку 2-НДФЛ?",
+    "expected": "Запрос в бухгалтерию или через HR-портал",
+    "actual_answer": "Запрос в бухгалтерию или через HR-портал",
+    "intent": "faq",
+    "latency_ms": 4592,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 33,
+    "question": "Когда приходит зарплата?",
+    "expected": "5 и 20 числа каждого месяца",
+    "actual_answer": "5 и 20 числа каждого месяца",
+    "intent": "faq",
+    "latency_ms": 7814,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 34,
+    "question": "Можно ли получить аванс?",
+    "expected": "Да, до 30% оклада по заявлению",
+    "actual_answer": "Да, до 30% оклада по заявлению",
+    "intent": "faq",
+    "latency_ms": 3440,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 35,
+    "question": "Как изменить реквизиты для зарплаты?",
+    "expected": "Заявление в бухгалтерию с новыми реквизитами",
+    "actual_answer": "Заявление в бухгалтерию с новыми реквизитами",
+    "intent": "faq",
+    "latency_ms": 6029,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 36,
+    "question": "Есть ли система грейдов в компании?",
+    "expected": "Да, от Junior до Principal",
+    "actual_answer": "Да, от Junior до Principal",
+    "intent": "faq",
+    "latency_ms": 3397,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 37,
+    "question": "Как происходит повышение?",
+    "expected": "Performance review раз в полгода",
+    "actual_answer": "Performance review раз в полгода",
+    "intent": "faq",
+    "latency_ms": 3808,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 38,
+    "question": "Кто проводит performance review?",
+    "expected": "Руководитель + HR + коллеги (360)",
+    "actual_answer": "Руководитель + HR + коллеги (360)",
+    "intent": "faq",
+    "latency_ms": 6262,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 39,
+    "question": "Можно ли отказаться от performance review?",
+    "expected": "Нет, это обязательная процедура",
+    "actual_answer": "Нет, это обязательная процедура",
+    "intent": "faq",
+    "latency_ms": 3860,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 40,
+    "question": "Что делать при конфликте с коллегой?",
+    "expected": "Обратиться к руководителю или HR",
+    "actual_answer": "Обратиться к руководителю или HR",
+    "intent": "faq",
+    "latency_ms": 4169,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 41,
+    "question": "Есть ли анонимная горячая линия?",
+    "expected": "Да, ethics@company.ru",
+    "actual_answer": "ethics@company.ru",
+    "intent": "faq",
+    "latency_ms": 4017,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 42,
+    "question": "Как сообщить о нарушении?",
+    "expected": "Через горячую линию или напрямую HR",
+    "actual_answer": "Через горячую линию или напрямую HR",
+    "intent": "faq",
+    "latency_ms": 4959,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 43,
+    "question": "Защищает ли компания от дискриминации?",
+    "expected": "Да, политика zero-tolerance",
+    "actual_answer": "Да, политика zero-tolerance",
+    "intent": "faq",
+    "latency_ms": 7975,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 44,
+    "question": "Можно ли работать неполный день?",
+    "expected": "Да, по согласованию с руководителем",
+    "actual_answer": "Да, по согласованию с руководителем",
+    "intent": "faq",
+    "latency_ms": 6108,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 45,
+    "question": "Как оформить сокращённую ставку?",
+    "expected": "Заявление в HR + согласие руководителя",
+    "actual_answer": "Заявление в HR + согласие руководителя",
+    "intent": "faq",
+    "latency_ms": 4907,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 46,
+    "question": "Влияет ли неполная ставка на отпуск?",
+    "expected": "Нет, отпуск пропорционально отработанному",
+    "actual_answer": "Нет, отпуск пропорционально отработанному",
+    "intent": "faq",
+    "latency_ms": 5683,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 47,
+    "question": "Можно ли совмещать работу с учёбой?",
+    "expected": "Да, учебный отпуск по справке",
+    "actual_answer": "Да, учебный отпуск по справке",
+    "intent": "faq",
+    "latency_ms": 9840,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 48,
+    "question": "Оплачивается ли учебный отпуск?",
+    "expected": "Да, в размере среднего заработка",
+    "actual_answer": "Да, в размере среднего заработка",
+    "intent": "faq",
+    "latency_ms": 5454,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 49,
+    "question": "Сколько дней учебного отпуска положено?",
+    "expected": "До 40 дней в год",
+    "actual_answer": "40 дней в год",
+    "intent": "faq",
+    "latency_ms": 5902,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 50,
+    "question": "Есть ли программа wellbeing?",
+    "expected": "Да, психолог + фитнес + питание",
+    "actual_answer": "Да, психолог + фитнес + питание",
+    "intent": "faq",
+    "latency_ms": 4640,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 51,
+    "question": "Как записаться к корпоративному психологу?",
+    "expected": "Через HR-портал, анонимно",
+    "actual_answer": "Через HR-портал, анонимно",
+    "intent": "faq",
+    "latency_ms": 4072,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 52,
+    "question": "Сколько сессий с психологом положено?",
+    "expected": "До 10 в год бесплатно",
+    "actual_answer": "До 10 в год бесплатно",
+    "intent": "faq",
+    "latency_ms": 4667,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 53,
+    "question": "Конфиденциальны ли сессии с психологом?",
+    "expected": "Да, полностью",
+    "actual_answer": "Да, полностью",
+    "intent": "faq",
+    "latency_ms": 7204,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 54,
+    "question": "Можно ли взять саббатикал?",
+    "expected": "Да, после 3 лет работы, до 3 месяцев",
+    "actual_answer": "Да, после 3 лет работы, до 3 месяцев",
+    "intent": "faq",
+    "latency_ms": 7784,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 55,
+    "question": "Оплачивается ли саббатикал?",
+    "expected": "Частично, 30% оклада",
+    "actual_answer": "Частично, 30% оклада",
+    "intent": "faq",
+    "latency_ms": 5497,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 56,
+    "question": "Сохраняется ли должность на время саббатикала?",
+    "expected": "Да, или аналогичная",
+    "actual_answer": "Да, или аналогичная",
+    "intent": "faq",
+    "latency_ms": 9685,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 57,
+    "question": "Есть ли программа релокации?",
+    "expected": "Да, в другие офисы компании",
+    "actual_answer": "Да, в другие офисы компании",
+    "intent": "faq",
+    "latency_ms": 5093,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 58,
+    "question": "Компенсирует ли компания переезд?",
+    "expected": "Да, до 200000 рублей",
+    "actual_answer": "Да, до 200000 рублей",
+    "intent": "faq",
+    "latency_ms": 5916,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 59,
+    "question": "Помогает ли компания с поиском жилья?",
+    "expected": "Да, через партнёрские агентства",
+    "actual_answer": "Да, через партнёрские агентства",
+    "intent": "faq",
+    "latency_ms": 5514,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 60,
+    "question": "Есть ли помощь с детским садом?",
+    "expected": "Да, компенсация 50%",
+    "actual_answer": "Да, компенсация 50%",
+    "intent": "faq",
+    "latency_ms": 5270,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 61,
+    "question": "Как получить компенсацию за детский сад?",
+    "expected": "Заявка в HR + договор с садом",
+    "actual_answer": "Заявка в HR + договор с садом",
+    "intent": "faq",
+    "latency_ms": 4712,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 62,
+    "question": "Есть ли комната для кормления?",
+    "expected": "Да, на каждом этаже",
+    "actual_answer": "Да, на каждом этаже",
+    "intent": "faq",
+    "latency_ms": 4338,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 63,
+    "question": "Можно ли брать детей в офис?",
+    "expected": "Да, в комнату для детей",
+    "actual_answer": "Да, в комнату для детей",
+    "intent": "faq",
+    "latency_ms": 5953,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 64,
+    "question": "Есть ли корпоративный транспорт?",
+    "expected": "Да, от метро до офиса",
+    "actual_answer": "Да, от метро до офиса",
+    "intent": "faq",
+    "latency_ms": 4233,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 65,
+    "question": "Как получить пропуск на корпоративный транспорт?",
+    "expected": "Через HR-портал",
+    "actual_answer": "Через HR-портал",
+    "intent": "faq",
+    "latency_ms": 4443,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 66,
+    "question": "Есть ли корпоративные мероприятия для семей?",
+    "expected": "Да, раз в год",
+    "actual_answer": "Да, раз в год",
+    "intent": "faq",
+    "latency_ms": 5159,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 67,
+    "question": "Как записаться на семейное мероприятие?",
+    "expected": "Через HR-портал",
+    "actual_answer": "Через HR-портал",
+    "intent": "faq",
+    "latency_ms": 4094,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 68,
+    "question": "Оплачивает ли компания участие семьи?",
+    "expected": "Да, полностью",
+    "actual_answer": "Да, полностью",
+    "intent": "faq",
+    "latency_ms": 4663,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 69,
+    "question": "Есть ли дресс-код в компании?",
+    "expected": "Casual, кроме встреч с клиентами",
+    "actual_answer": "Casual, кроме встреч с клиентами",
+    "intent": "faq",
+    "latency_ms": 6611,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 70,
+    "question": "Как получить доступ к корпоративной почте?",
+    "expected": "Почта выдаётся в первый рабочий день",
+    "actual_answer": "Почта выдаётся в первый рабочий день",
+    "intent": "faq",
+    "latency_ms": 4968,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 71,
+    "question": "Какой формат корпоративной почты?",
+    "expected": "firstname.lastname@company.ru",
+    "actual_answer": "firstname.lastname@company.ru",
+    "intent": "faq",
+    "latency_ms": 5329,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 72,
+    "question": "Как получить доступ к VPN?",
+    "expected": "Заявка через ServiceDesk, категория Сеть/VPN",
+    "actual_answer": "Заявка через ServiceDesk, категория Сеть/VPN",
+    "intent": "faq",
+    "latency_ms": 5176,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 73,
+    "question": "Сколько ждать получения VPN?",
+    "expected": "До 2 рабочих дней",
+    "actual_answer": "До 2 рабочих дней",
+    "intent": "faq",
+    "latency_ms": 4378,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 74,
+    "question": "Какой VPN-клиент нужен?",
+    "expected": "Cisco AnyConnect",
+    "actual_answer": "Cisco AnyConnect",
+    "intent": "faq",
+    "latency_ms": 3937,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 75,
+    "question": "Как запросить доступ к 1С?",
+    "expected": "Руководитель через заявку в ServiceDesk",
+    "actual_answer": "Руководитель через заявку в ServiceDesk",
+    "intent": "faq",
+    "latency_ms": 7340,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 76,
+    "question": "Как сбросить пароль от почты?",
+    "expected": "Через портал self-service или заявку в ServiceDesk",
+    "actual_answer": "Через портал self-service или заявку в ServiceDesk",
+    "intent": "faq",
+    "latency_ms": 4149,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 77,
+    "question": "Сколько времени занимает сброс пароля?",
+    "expected": "До 1 часа в рабочее время",
+    "actual_answer": "До 1 часа в рабочее время",
+    "intent": "faq",
+    "latency_ms": 4828,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 78,
+    "question": "Как получить пропуск в офис?",
+    "expected": "Заявка в службу безопасности через HR",
+    "actual_answer": "Заявка в службу безопасности через HR",
+    "intent": "faq",
+    "latency_ms": 5040,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 79,
+    "question": "Какой антивирус установлен на корпоративных ПК?",
+    "expected": "Kaspersky Endpoint Security",
+    "actual_answer": "Kaspersky Endpoint Security",
+    "intent": "faq",
+    "latency_ms": 4517,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 80,
+    "question": "Можно ли установить свои программы на рабочий ноутбук?",
+    "expected": "Только по согласованию с IT-отделом",
+    "actual_answer": "Только по согласованию с IT-отделом",
+    "intent": "faq",
+    "latency_ms": 6785,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 81,
+    "question": "Как подключиться к корпоративному Wi-Fi?",
+    "expected": "Логин и пароль от корпоративной почты",
+    "actual_answer": "Логин и пароль от корпоративной почты",
+    "intent": "faq",
+    "latency_ms": 4599,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 82,
+    "question": "Что делать, если забыл пароль от Wi-Fi?",
+    "expected": "Сброс через self-service или заявка в IT",
+    "actual_answer": "Сброс через self-service или заявка в IT",
+    "intent": "faq",
+    "latency_ms": 4047,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 83,
+    "question": "Как получить доступ к корпоративному облаку?",
+    "expected": "Заявка через ServiceDesk",
+    "actual_answer": "Заявка через ServiceDesk",
+    "intent": "faq",
+    "latency_ms": 5887,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 84,
+    "question": "Какой объём хранилища в корпоративном облаке?",
+    "expected": "100 GB на сотрудника",
+    "actual_answer": "100 GB на сотрудника",
+    "intent": "faq",
+    "latency_ms": 5175,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 85,
+    "question": "Можно ли хранить личные файлы на корпоративном облаке?",
+    "expected": "Нет, только рабочие файлы",
+    "actual_answer": "Нет, только рабочие файлы",
+    "intent": "faq",
+    "latency_ms": 7094,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 86,
+    "question": "Как получить доступ к GitHub компании?",
+    "expected": "Заявка через руководителя в IT",
+    "actual_answer": "Заявка через руководителя в IT",
+    "intent": "faq",
+    "latency_ms": 3976,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 87,
+    "question": "Какой процесс code review?",
+    "expected": "Минимум 2 аппрува от коллег",
+    "actual_answer": "Минимум 2 аппрува от коллег",
+    "intent": "faq",
+    "latency_ms": 5578,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 88,
+    "question": "Есть ли CI/CD пайплайн?",
+    "expected": "Да, GitLab CI с автотестами",
+    "actual_answer": "Да, GitLab CI с автотестами",
+    "intent": "faq",
+    "latency_ms": 4312,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 89,
+    "question": "Как деплоить в продакшн?",
+    "expected": "Через merge request + approval",
+    "actual_answer": "Через merge request + approval",
+    "intent": "faq",
+    "latency_ms": 4478,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 90,
+    "question": "Кто отвечает за инциденты?",
+    "expected": "On-call инженер по графику",
+    "actual_answer": "On-call инженер по графику",
+    "intent": "faq",
+    "latency_ms": 5189,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 91,
+    "question": "Как сообщить об инциденте?",
+    "expected": "В канал #incidents в Slack",
+    "actual_answer": "В канал #incidents в Slack",
+    "intent": "faq",
+    "latency_ms": 4909,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 92,
+    "question": "Есть ли runbook для частых инцидентов?",
+    "expected": "Да, в Confluence",
+    "actual_answer": "Да, в Confluence",
+    "intent": "faq",
+    "latency_ms": 4765,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 93,
+    "question": "Как получить доступ к продакшн-серверам?",
+    "expected": "Только через bastion host + 2FA",
+    "actual_answer": "Только через bastion host + 2FA",
+    "intent": "faq",
+    "latency_ms": 5954,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 94,
+    "question": "Можно ли хранить пароли в коде?",
+    "expected": "Нет, только через secrets manager",
+    "actual_answer": "Нет, только через secrets manager",
+    "intent": "faq",
+    "latency_ms": 4282,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 95,
+    "question": "Какой secrets manager используется?",
+    "expected": "HashiCorp Vault",
+    "actual_answer": "HashiCorp Vault",
+    "intent": "faq",
+    "latency_ms": 3432,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 96,
+    "question": "Как запросить новый сервис в инфраструктуре?",
+    "expected": "Тикет в IT с обоснованием",
+    "actual_answer": "Тикет в IT с обоснованием",
+    "intent": "faq",
+    "latency_ms": 4692,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 97,
+    "question": "Есть ли лимит на облачные ресурсы?",
+    "expected": "Да, по бюджету проекта",
+    "actual_answer": "Да, по бюджету проекта",
+    "intent": "faq",
+    "latency_ms": 6341,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 98,
+    "question": "Кто оплачивает облачные сервисы?",
+    "expected": "Компания, в рамках бюджета",
+    "actual_answer": "Компания, в рамках бюджета",
+    "intent": "faq",
+    "latency_ms": 5892,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 99,
+    "question": "Можно ли использовать личные облачные аккаунты?",
+    "expected": "Нет, только корпоративные",
+    "actual_answer": "Нет, только корпоративные",
+    "intent": "faq",
+    "latency_ms": 6539,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 100,
+    "question": "Как получить доступ к базам данных?",
+    "expected": "Заявка + обучение по безопасности",
+    "actual_answer": "Заявка + обучение по безопасности",
+    "intent": "faq",
+    "latency_ms": 4345,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 101,
+    "question": "Есть ли тестовые окружения?",
+    "expected": "Да, dev/staging/prod",
+    "actual_answer": "Да, dev/staging/prod",
+    "intent": "faq",
+    "latency_ms": 4383,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 102,
+    "question": "Как получить доступ к staging?",
+    "expected": "Через заявку в IT",
+    "actual_answer": "Через заявку в IT",
+    "intent": "faq",
+    "latency_ms": 4723,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 103,
+    "question": "Можно ли тестировать на продакшн-данных?",
+    "expected": "Нет, только анонимизированные копии",
+    "actual_answer": "Нет, только анонимизированные копии",
+    "intent": "faq",
+    "latency_ms": 6544,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 104,
+    "question": "Как запросить анонимизированные данные?",
+    "expected": "Заявка в Data Team",
+    "actual_answer": "Заявка в Data Team",
+    "intent": "faq",
+    "latency_ms": 4019,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 105,
+    "question": "Есть ли обучение по безопасности?",
+    "expected": "Да, обязательное раз в год",
+    "actual_answer": "Да, обязательное раз в год",
+    "intent": "faq",
+    "latency_ms": 5008,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 106,
+    "question": "Что делать при утечке данных?",
+    "expected": "Немедленно сообщить в security@company.ru",
+    "actual_answer": "Немедленно сообщить в security@company.ru",
+    "intent": "faq",
+    "latency_ms": 5142,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 107,
+    "question": "Как защитить корпоративную почту от фишинга?",
+    "expected": "2FA + не открывать подозрительные ссылки",
+    "actual_answer": "2FA + не открывать подозрительные ссылки",
+    "intent": "faq",
+    "latency_ms": 3581,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 108,
+    "question": "Можно ли использовать USB-флешки?",
+    "expected": "Только корпоративные, зашифрованные",
+    "actual_answer": "Только корпоративные, зашифрованные",
+    "intent": "faq",
+    "latency_ms": 4989,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 109,
+    "question": "Как зашифровать флешку?",
+    "expected": "Через BitLocker или VeraCrypt",
+    "actual_answer": "Через BitLocker или VeraCrypt",
+    "intent": "faq",
+    "latency_ms": 5106,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 110,
+    "question": "Есть ли политика clean desk?",
+    "expected": "Да, убирать документы со стола",
+    "actual_answer": "Да, убирать документы со стола",
+    "intent": "faq",
+    "latency_ms": 4020,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 111,
+    "question": "Можно ли фотографировать в офисе?",
+    "expected": "Только общие зоны, без экранов",
+    "actual_answer": "Только общие зоны, без экранов",
+    "intent": "faq",
+    "latency_ms": 6410,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 112,
+    "question": "Как утилизировать старые документы?",
+    "expected": "Через шредер или спец. контейнеры",
+    "actual_answer": "Через шредер или спец. контейнеры",
+    "intent": "faq",
+    "latency_ms": 5104,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 113,
+    "question": "Есть ли политика work from anywhere?",
+    "expected": "Да, до 2 недель в месяц из любой страны",
+    "actual_answer": "Да, до 2 недель в месяц из любой страны",
+    "intent": "faq",
+    "latency_ms": 4214,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 114,
+    "question": "Нужно ли согласовывать работу из другой страны?",
+    "expected": "Да, за 2 недели через HR",
+    "actual_answer": "Да, за 2 недели через HR",
+    "intent": "faq",
+    "latency_ms": 4313,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 115,
+    "question": "Компенсирует ли компания интернет дома?",
+    "expected": "Да, 500 рублей в месяц",
+    "actual_answer": "Да, 500 рублей в месяц",
+    "intent": "faq",
+    "latency_ms": 5349,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 116,
+    "question": "Как получить компенсацию за интернет?",
+    "expected": "Заявка в HR + чек",
+    "actual_answer": "Заявка в HR + чек",
+    "intent": "faq",
+    "latency_ms": 4138,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 117,
+    "question": "Есть ли компенсация за электричество?",
+    "expected": "Нет, только интернет",
+    "actual_answer": "Нет, только интернет",
+    "intent": "faq",
+    "latency_ms": 8232,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 118,
+    "question": "Можно ли получить эргономичное кресло?",
+    "expected": "Да, по мед. показаниям или заявке",
+    "actual_answer": "Да, по мед. показаниям или заявке",
+    "intent": "faq",
+    "latency_ms": 5269,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 119,
+    "question": "Выдают ли мониторы для дома?",
+    "expected": "Да, один монитор по заявке",
+    "actual_answer": "Да, один монитор по заявке",
+    "intent": "faq",
+    "latency_ms": 7126,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 120,
+    "question": "Можно ли получить веб-камеру?",
+    "expected": "Да, для удалённой работы",
+    "actual_answer": "Да, для удалённой работы",
+    "intent": "faq",
+    "latency_ms": 5349,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 121,
+    "question": "Есть ли корпоративные скидки?",
+    "expected": "Да, на фитнес, обучение, технику",
+    "actual_answer": "Да, на фитнес, обучение, технику",
+    "intent": "faq",
+    "latency_ms": 8530,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 122,
+    "question": "Как получить скидку на фитнес?",
+    "expected": "Через HR-портал, раздел Benefits",
+    "actual_answer": "Через HR-портал, раздел Benefits",
+    "intent": "faq",
+    "latency_ms": 5050,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 123,
+    "question": "Компенсирует ли компания обучение?",
+    "expected": "Да, до 50000 рублей в год",
+    "actual_answer": "Да, до 50000 рублей в год",
+    "intent": "faq",
+    "latency_ms": 4870,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 124,
+    "question": "Как запросить компенсацию обучения?",
+    "expected": "Заявка в HR + программа курса",
+    "actual_answer": "Заявка в HR + программа курса",
+    "intent": "faq",
+    "latency_ms": 4385,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 125,
+    "question": "Можно ли учиться в рабочее время?",
+    "expected": "Да, до 4 часов в неделю",
+    "actual_answer": "Да, до 4 часов в неделю",
+    "intent": "faq",
+    "latency_ms": 7195,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 126,
+    "question": "Есть ли менторство для новичков?",
+    "expected": "Да, наставник на первые 3 месяца",
+    "actual_answer": "Да, наставник на первые 3 месяца",
+    "intent": "faq",
+    "latency_ms": 4655,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 127,
+    "question": "Как стать ментором?",
+    "expected": "Заявка в HR + опыт от 2 лет",
+    "actual_answer": "Заявка в HR + опыт от 2 лет",
+    "intent": "faq",
+    "latency_ms": 4583,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 128,
+    "question": "Оплачивается ли менторство?",
+    "expected": "Да, бонус 10% к окладу",
+    "actual_answer": "Да, бонус 10% к окладу",
+    "intent": "faq",
+    "latency_ms": 6758,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 129,
+    "question": "Есть ли внутренний job market?",
+    "expected": "Да, можно менять отделы через HR",
+    "actual_answer": "Да, можно менять отделы через HR",
+    "intent": "faq",
+    "latency_ms": 6361,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 130,
+    "question": "Как перейти в другой отдел?",
+    "expected": "Собеседование + согласие текущего руководителя",
+    "actual_answer": "Собеседование + согласие текущего руководителя",
+    "intent": "faq",
+    "latency_ms": 8114,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 131,
+    "question": "Можно ли отказаться от перехода?",
+    "expected": "Да, без последствий",
+    "actual_answer": "Да, без последствий",
+    "intent": "faq",
+    "latency_ms": 4551,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 132,
+    "question": "Как уволиться из компании?",
+    "expected": "Заявление за 2 недели",
+    "actual_answer": "ERROR: 'needs_clarification'",
+    "intent": "error",
+    "latency_ms": 0,
+    "context_chunks_count": 0
+  },
+  {
+    "id": 133,
+    "question": "Есть ли exit interview?",
+    "expected": "Да, с HR в последний день",
+    "actual_answer": "Да, с HR в последний день",
+    "intent": "faq",
+    "latency_ms": 4180,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 134,
+    "question": "Что происходит с неиспользованным отпуском при увольнении?",
+    "expected": "Компенсируется деньгами",
+    "actual_answer": "Компенсируется деньгами",
+    "intent": "faq",
+    "latency_ms": 7362,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 135,
+    "question": "Когда приходит финальный расчёт?",
+    "expected": "В последний рабочий день",
+    "actual_answer": "В последний рабочий день",
+    "intent": "faq",
+    "latency_ms": 3870,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 136,
+    "question": "Можно ли вернуться в компанию после увольнения?",
+    "expected": "Да, через 6 месяцев",
+    "actual_answer": "Да, через 6 месяцев",
+    "intent": "faq",
+    "latency_ms": 7096,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 137,
+    "question": "Сохраняется ли стаж при возвращении?",
+    "expected": "Да, частично",
+    "actual_answer": "Да, частично",
+    "intent": "faq",
+    "latency_ms": 6043,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 138,
+    "question": "Есть ли программа рефералов?",
+    "expected": "Да, бонус 50000 за рекомендацию",
+    "actual_answer": "Да, бонус 50000 за рекомендацию",
+    "intent": "faq",
+    "latency_ms": 4463,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 139,
+    "question": "Как оформить реферала?",
+    "expected": "Через HR-портал, раздел Referrals",
+    "actual_answer": "Через HR-портал, раздел Referrals",
+    "intent": "faq",
+    "latency_ms": 4884,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 140,
+    "question": "Когда выдаётся ноутбук?",
+    "expected": "В первый рабочий день",
+    "actual_answer": "В первый рабочий день",
+    "intent": "faq",
+    "latency_ms": 6559,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 141,
+    "question": "Какой ноутбук выдадут разработчику?",
+    "expected": "MacBook Pro или ThinkPad P series",
+    "actual_answer": "MacBook Pro или ThinkPad P series",
+    "intent": "faq",
+    "latency_ms": 6482,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 142,
+    "question": "Что нужно сделать при получении техники?",
+    "expected": "Подписать акт приёма-передачи",
+    "actual_answer": "Подписать акт приёма-передачи",
+    "intent": "faq",
+    "latency_ms": 5716,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 143,
+    "question": "Куда подавать заявку на ремонт техники?",
+    "expected": "В ServiceDesk, категория Оборудование",
+    "actual_answer": "В ServiceDesk, категория Оборудование",
+    "intent": "faq",
+    "latency_ms": 4805,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 144,
+    "question": "Есть ли подменный ноутбук на время ремонта?",
+    "expected": "Да, подменный фонд доступен",
+    "actual_answer": "Да, подменный фонд доступен",
+    "intent": "faq",
+    "latency_ms": 6588,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 145,
+    "question": "Какой лимит на мобильную связь?",
+    "expected": "1000 рублей в месяц",
+    "actual_answer": "1000 рублей в месяц",
+    "intent": "faq",
+    "latency_ms": 6881,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 146,
+    "question": "Кто оплачивает превышение лимита мобильной связи?",
+    "expected": "Сотрудник оплачивает превышение",
+    "actual_answer": "Сотрудник оплачивает превышение",
+    "intent": "faq",
+    "latency_ms": 6937,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 147,
+    "question": "Как запросить второй монитор?",
+    "expected": "Заявка в ServiceDesk, категория Оборудование",
+    "actual_answer": "Заявка в ServiceDesk, категория Оборудование",
+    "intent": "faq",
+    "latency_ms": 5466,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 148,
+    "question": "Выдают ли наушники для удалёнки?",
+    "expected": "Да, по заявке в ServiceDesk",
+    "actual_answer": "Да, по заявке в ServiceDesk",
+    "intent": "faq",
+    "latency_ms": 5976,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 149,
+    "question": "Можно ли обменять ноутбук на более мощный?",
+    "expected": "Да, с обоснованием через руководителя",
+    "actual_answer": "Да, с обоснованием через руководителя",
+    "intent": "faq",
+    "latency_ms": 7612,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 150,
+    "question": "Что делать, если сломался ноутбук дома?",
+    "expected": "Заявка в ServiceDesk, диагностика 1 день",
+    "actual_answer": "Заявка в ServiceDesk, диагностика 1 день",
+    "intent": "faq",
+    "latency_ms": 5145,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 151,
+    "question": "Есть ли компенсация за использование личного ноутбука?",
+    "expected": "Нет, компания выдаёт технику",
+    "actual_answer": "Нет, компания выдаёт технику",
+    "intent": "faq",
+    "latency_ms": 5919,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 152,
+    "question": "Как получить доступ к корпоративному телефону?",
+    "expected": "Заявка в IT-отдел",
+    "actual_answer": "Заявка в IT-отдел",
+    "intent": "faq",
+    "latency_ms": 6599,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 153,
+    "question": "Какой тариф на корпоративном телефоне?",
+    "expected": "Базовый тариф с безлимитными звонками внутри компании",
+    "actual_answer": "Базовый тариф с безлимитными звонками внутри компании",
+    "intent": "faq",
+    "latency_ms": 4491,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 154,
+    "question": "Можно ли использовать корпоративный телефон в личных целях?",
+    "expected": "Да, в разумных пределах",
+    "actual_answer": "Да, в разумных пределах",
+    "intent": "faq",
+    "latency_ms": 7614,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 155,
+    "question": "Что делать, если потерял корпоративный телефон?",
+    "expected": "Немедленно сообщить в IT и заблокировать SIM",
+    "actual_answer": "Немедленно сообщить в IT и заблокировать SIM",
+    "intent": "faq",
+    "latency_ms": 4830,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 156,
+    "question": "Как получить новый зарядное устройство?",
+    "expected": "Заявка в ServiceDesk",
+    "actual_answer": "Заявка в ServiceDesk",
+    "intent": "faq",
+    "latency_ms": 4210,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 157,
+    "question": "Выдают ли мышки и клавиатуры?",
+    "expected": "Да, по заявке",
+    "actual_answer": "Да, по заявке",
+    "intent": "faq",
+    "latency_ms": 7180,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 158,
+    "question": "Можно ли выбрать модель мышки?",
+    "expected": "Да, из списка доступных",
+    "actual_answer": "Да, из списка доступных",
+    "intent": "faq",
+    "latency_ms": 7039,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 159,
+    "question": "Как получить адаптер для MacBook?",
+    "expected": "Заявка в IT + обоснование",
+    "actual_answer": "Заявка в IT + обоснование",
+    "intent": "faq",
+    "latency_ms": 7380,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 160,
+    "question": "Выдают ли внешние мониторы?",
+    "expected": "Да, до 2 мониторов на сотрудника",
+    "actual_answer": "Да, до 2 мониторов на сотрудника",
+    "intent": "faq",
+    "latency_ms": 4826,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 161,
+    "question": "Какой размер монитора положен?",
+    "expected": "24 дюйма, по заявке можно 27",
+    "actual_answer": "24 дюйма, по заявке можно 27",
+    "intent": "faq",
+    "latency_ms": 4549,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 162,
+    "question": "Можно ли получить 4K монитор?",
+    "expected": "Да, для дизайнеров и разработчиков",
+    "actual_answer": "Да, для дизайнеров и разработчиков",
+    "intent": "faq",
+    "latency_ms": 7118,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 163,
+    "question": "Как получить docking station?",
+    "expected": "Заявка в IT для MacBook",
+    "actual_answer": "Заявка в IT для MacBook",
+    "intent": "faq",
+    "latency_ms": 3989,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 164,
+    "question": "Выдают ли гарнитуры для конференций?",
+    "expected": "Да, по заявке",
+    "actual_answer": "Да, по заявке",
+    "intent": "faq",
+    "latency_ms": 3704,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 165,
+    "question": "Какая гарнитура доступна?",
+    "expected": "Jabra или Polycom",
+    "actual_answer": "Jabra или Polycom",
+    "intent": "faq",
+    "latency_ms": 3688,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 166,
+    "question": "Можно ли получить веб-камеру высокого качества?",
+    "expected": "Да, для frequent remote workers",
+    "actual_answer": "Да, для frequent remote workers",
+    "intent": "faq",
+    "latency_ms": 5293,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 167,
+    "question": "Как получить доступ к принтеру?",
+    "expected": "Автоматически при найме, печать по пропуску",
+    "actual_answer": "Автомatically при найме, печать по пропуску",
+    "intent": "faq",
+    "latency_ms": 4076,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 168,
+    "question": "Есть ли лимит на печать?",
+    "expected": "Да, 500 страниц в месяц",
+    "actual_answer": "Да, 500 страниц в месяц",
+    "intent": "faq",
+    "latency_ms": 6054,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 169,
+    "question": "Можно ли печатать личные документы?",
+    "expected": "Нет, только рабочие",
+    "actual_answer": "Нет, только рабочие",
+    "intent": "faq",
+    "latency_ms": 7371,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 170,
+    "question": "Как получить сканер?",
+    "expected": "Использовать МФУ в офисе или заявка",
+    "actual_answer": "Использовать МФУ в офисе или заявка",
+    "intent": "faq",
+    "latency_ms": 4061,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 171,
+    "question": "Есть ли планшет для работы?",
+    "expected": "Да, для полевых сотрудников",
+    "actual_answer": "Да, для полевых сотрудников",
+    "intent": "faq",
+    "latency_ms": 8177,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 172,
+    "question": "Какой планшет выдаётся?",
+    "expected": "iPad Pro или Samsung Galaxy Tab",
+    "actual_answer": "iPad Pro или Samsung Galaxy Tab",
+    "intent": "faq",
+    "latency_ms": 7230,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 173,
+    "question": "Можно ли получить второй ноутбук?",
+    "expected": "Да, с обоснованием для разных проектов",
+    "actual_answer": "Да, с обоснованием для разных проектов",
+    "intent": "faq",
+    "latency_ms": 7318,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 174,
+    "question": "Как получить доступ к тестовым устройствам?",
+    "expected": "Через лабораторию оборудования",
+    "actual_answer": "Через лабораторию оборудования",
+    "intent": "faq",
+    "latency_ms": 5348,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 175,
+    "question": "Есть ли библиотека устройств для тестирования?",
+    "expected": "Да, разные модели телефонов и планшетов",
+    "actual_answer": "Да, разные модели телефонов и планшетов",
+    "intent": "faq",
+    "latency_ms": 4758,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 176,
+    "question": "Как забронировать тестовое устройство?",
+    "expected": "Через внутренний портал",
+    "actual_answer": "Через внутренний портал",
+    "intent": "faq",
+    "latency_ms": 4655,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 177,
+    "question": "На сколько дней можно взять тестовое устройство?",
+    "expected": "До 2 недель",
+    "actual_answer": "До 2 недель",
+    "intent": "faq",
+    "latency_ms": 4762,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 178,
+    "question": "Что делать, если тестовое устройство сломалось?",
+    "expected": "Сообщить в IT, компания чинит",
+    "actual_answer": "Сообщить в IT, компания чинит",
+    "intent": "faq",
+    "latency_ms": 4047,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 179,
+    "question": "Можно ли взять технику домой на выходные?",
+    "expected": "Да, с разрешения руководителя",
+    "actual_answer": "Да, с разрешения руководителя",
+    "intent": "faq",
+    "latency_ms": 6662,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 180,
+    "question": "Нужна ли расписка при выносе техники?",
+    "expected": "Да, через службу безопасности",
+    "actual_answer": "Да, через службу безопасности",
+    "intent": "faq",
+    "latency_ms": 6183,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 181,
+    "question": "Как оформить возврат техники при увольнении?",
+    "expected": "Сдать всё в IT в последний день",
+    "actual_answer": "Сдать всё в IT в последний день",
+    "intent": "faq",
+    "latency_ms": 5356,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 182,
+    "question": "Что входит в комплект при увольнении?",
+    "expected": "Ноутбук, зарядка, пропуск, телефон",
+    "actual_answer": "ноутбук, зарядка, пропуск, телефон",
+    "intent": "faq",
+    "latency_ms": 7036,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 183,
+    "question": "Можно ли выкупить технику после увольнения?",
+    "expected": "Да, по остаточной стоимости",
+    "actual_answer": "Да, по остаточной стоимости",
+    "intent": "faq",
+    "latency_ms": 6600,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 184,
+    "question": "Как рассчитывается остаточная стоимость?",
+    "expected": "По формуле амортизации 3 года",
+    "actual_answer": "По формуле амортизации 3 года",
+    "intent": "faq",
+    "latency_ms": 5590,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 185,
+    "question": "Есть ли страхование техники?",
+    "expected": "Да, компания страхует всю технику",
+    "actual_answer": "Да, компания страхует всю технику",
+    "intent": "faq",
+    "latency_ms": 4902,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 186,
+    "question": "Что делать, если украли корпоративный ноутбук?",
+    "expected": "Заявление в полицию + уведомить IT и СБ",
+    "actual_answer": "Заявление в полицию + уведомить IT и СБ",
+    "intent": "faq",
+    "latency_ms": 7800,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 187,
+    "question": "Кто оплачивает украденную технику?",
+    "expected": "Компания, если был заявлен инцидент",
+    "actual_answer": "Компания, если был заявлен инцидент",
+    "intent": "faq",
+    "latency_ms": 7022,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 188,
+    "question": "Можно ли установить Linux на корпоративный ноутбук?",
+    "expected": "Да, для разработчиков с разрешения IT",
+    "actual_answer": "Да, для разработчиков с разрешения IT",
+    "intent": "faq",
+    "latency_ms": 7004,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 189,
+    "question": "Как получить root-права на рабочем ПК?",
+    "expected": "Только через IT, с обоснованием",
+    "actual_answer": "Только через IT, с обоснованием",
+    "intent": "faq",
+    "latency_ms": 5470,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 190,
+    "question": "Можно ли отключить антивирус?",
+    "expected": "Нет, только через IT для тестов",
+    "actual_answer": "Нет, только через IT для тестов",
+    "intent": "faq",
+    "latency_ms": 4254,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 191,
+    "question": "Как получить доступ к корпоративному хранилищу?",
+    "expected": "Автоматически при найме, 100 GB",
+    "actual_answer": "Автомatically при найме, 100 GB",
+    "intent": "faq",
+    "latency_ms": 5292,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 192,
+    "question": "Что делать, если хранилище заполнилось?",
+    "expected": "Заявка в IT на расширение или очистка",
+    "actual_answer": "Заявка в IT на расширение или очистку",
+    "intent": "faq",
+    "latency_ms": 5136,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 193,
+    "question": "Можно ли получить дополнительное хранилище?",
+    "expected": "Да, до 500 GB с обоснованием",
+    "actual_answer": "Да, до 500 GB с обоснованием",
+    "intent": "faq",
+    "latency_ms": 4564,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 194,
+    "question": "Есть ли резервное копирование данных?",
+    "expected": "Да, автоматическое nightly backup",
+    "actual_answer": "Да, автоматическое nightly backup",
+    "intent": "faq",
+    "latency_ms": 4021,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 195,
+    "question": "Как восстановить удалённый файл?",
+    "expected": "Через IT из бэкапа, до 30 дней",
+    "actual_answer": "Через IT из бэкапа, до 30 дней",
+    "intent": "faq",
+    "latency_ms": 5320,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 196,
+    "question": "Можно ли использовать Dropbox?",
+    "expected": "Нет, только корпоративное облако",
+    "actual_answer": "Нет, только корпоративное облако",
+    "intent": "faq",
+    "latency_ms": 4924,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 197,
+    "question": "Как получить доступ к Google Workspace?",
+    "expected": "Автоматически через корпоративную почту",
+    "actual_answer": "Автомatically через корпоративную почту",
+    "intent": "faq",
+    "latency_ms": 4328,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 198,
+    "question": "Есть ли корпоративный Slack?",
+    "expected": "Да, для всех сотрудников",
+    "actual_answer": "Да, для всех сотрудников",
+    "intent": "faq",
+    "latency_ms": 5250,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 199,
+    "question": "Как получить доступ к Jira?",
+    "expected": "Через руководителя + заявка в IT",
+    "actual_answer": "Через руководителя + заявка в IT",
+    "intent": "faq",
+    "latency_ms": 4653,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 200,
+    "question": "Можно ли использовать Trello вместо Jira?",
+    "expected": "Нет, только корпоративные инструменты",
+    "actual_answer": "ERROR: 'needs_clarification'",
+    "intent": "error",
+    "latency_ms": 0,
+    "context_chunks_count": 0
+  },
+  {
+    "id": 201,
+    "question": "Как получить доступ к Confluence?",
+    "expected": "Автоматически при найме",
+    "actual_answer": "Автоматически при найме",
+    "intent": "faq",
+    "latency_ms": 3080,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 202,
+    "question": "Есть ли корпоративный Figma?",
+    "expected": "Да, для дизайнеров и продактов",
+    "actual_answer": "Да, для дизайнеров и продактов",
+    "intent": "faq",
+    "latency_ms": 5139,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 203,
+    "question": "Как получить лицензию на Adobe?",
+    "expected": "Заявка через руководителя + обоснование",
+    "actual_answer": "Заявка через руководителя + обоснование",
+    "intent": "faq",
+    "latency_ms": 4867,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 204,
+    "question": "Можно ли использовать личный софт?",
+    "expected": "Нет, только корпоративный",
+    "actual_answer": "Нет, только корпоративный",
+    "intent": "faq",
+    "latency_ms": 5900,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 205,
+    "question": "Как запросить новую лицензию?",
+    "expected": "Тикет в IT с обоснованием",
+    "actual_answer": "Тикет в IT с обоснованием",
+    "intent": "faq",
+    "latency_ms": 4855,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 206,
+    "question": "Есть ли лимит на лицензии?",
+    "expected": "Да, по бюджету отдела",
+    "actual_answer": "Да, по бюджету отдела",
+    "intent": "faq",
+    "latency_ms": 8187,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 207,
+    "question": "Кто оплачивает подписки на софт?",
+    "expected": "Компания",
+    "actual_answer": "Компания",
+    "intent": "faq",
+    "latency_ms": 3834,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 208,
+    "question": "Можно ли получить подписку на ChatGPT?",
+    "expected": "Да, для продактов и аналитиков",
+    "actual_answer": "Да, для продактов и аналитиков",
+    "intent": "faq",
+    "latency_ms": 5664,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 209,
+    "question": "Как получить доступ к Copilot?",
+    "expected": "Заявка в IT + обоснование",
+    "actual_answer": "Заявка в IT + обоснование",
+    "intent": "faq",
+    "latency_ms": 3287,
+    "context_chunks_count": 5
+  },
+  {
+    "id": 210,
+    "question": "Есть ли корпоративный Midjourney?",
+    "expected": "Да, для дизайнеров",
+    "actual_answer": "Да, для дизайнеров",
+    "intent": "faq",
+    "latency_ms": 4801,
+    "context_chunks_count": 5
+  }
+]

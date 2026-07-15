@@ -1,0 +1,88 @@
+version: '3.8'
+
+services:
+  # ==============================================================================
+  # Ollama - локальный инференс LLM и эмбеддингов
+  # ==============================================================================
+  ollama:
+    image: ollama/ollama:latest
+    container_name: faq-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:11434/api/version"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    # Для GPU раскомментируй:
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+
+  # ==============================================================================
+  # FastAPI API - основное приложение
+  # ==============================================================================
+  api:
+    build: .
+    container_name: faq-api
+    ports:
+      - "8000:8000"
+    environment:
+      - OLLAMA_HOST=http://ollama:11434
+      - RAG_DIR=/app/rag_artifacts
+      - LANGFUSE_PUBLIC_KEY=${LANGFUSE_PUBLIC_KEY:-}
+      - LANGFUSE_SECRET_KEY=${LANGFUSE_SECRET_KEY:-}
+      - LANGFUSE_HOST=${LANGFUSE_HOST:-https://cloud.langfuse.com}
+    volumes:
+      - rag_artifacts:/app/rag_artifacts
+    depends_on:
+      ollama:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 120s
+
+  # ==============================================================================
+  # Langfuse (опционально) - LLMOps платформа
+  # Раскомментируй, если нужен self-hosted Langfuse
+  # ==============================================================================
+  # langfuse:
+  #   image: langfuse/langfuse:latest
+  #   container_name: faq-langfuse
+  #   ports:
+  #     - "3000:3000"
+  #   environment:
+  #     - DATABASE_URL=postgresql://langfuse:langfuse@postgres:5432/langfuse
+  #     - NEXTAUTH_SECRET=mysecret
+  #     - SALT=mysecret
+  #   depends_on:
+  #     - postgres
+  #   restart: unless-stopped
+
+  # postgres:
+  #   image: postgres:15
+  #   container_name: faq-postgres
+  #   environment:
+  #     - POSTGRES_USER=langfuse
+  #     - POSTGRES_PASSWORD=langfuse
+  #     - POSTGRES_DB=langfuse
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   restart: unless-stopped
+
+volumes:
+  ollama_data:
+  rag_artifacts:
+  # postgres_data:
