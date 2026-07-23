@@ -63,7 +63,8 @@ uvicorn app.main:app --reload
 
 <span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:16px;line-height:1;">⚙️</span> 
 
-Архитектура (LangGraph Agent)
+## Архитектура (LangGraph Agent)
+```
                       Запрос пользователя
                               │
                               ▼
@@ -90,10 +91,11 @@ uvicorn app.main:app --reload
   │                 Generator Node (LLM)                   │
   │  Генерация ответа строго по контексту (JSON output)    │
   └────────────────────────────────────────────────────────┘
-
+```
 <span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:16px;line-height:1;">📡</span> 
 
-API
+## API
+```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                         FASTAPI REST API (v1)                               │
 │                    http://localhost:8000/docs (Swagger UI)                   │
@@ -139,7 +141,7 @@ API
 │  Описание: Swagger UI (автодокументация)                                    │
 │  Интерактивная документация API с возможностью тестирования запросов        │
 └─────────────────────────────────────────────────────────────────────────────┘
-
+```
 Пример запроса
 curl -X POST http://localhost:8000/api/v1/ask \
   -H "Content-Type: application/json" \
@@ -149,6 +151,8 @@ curl -X POST http://localhost:8000/api/v1/ask \
 <span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:16px;line-height:1;">📊</span> 
 Метрики и Оценка (Evaluation)
 Система протестирована на кастомном Ground Truth датасете из 211 вопросов (HR, IT, Equipment).
+
+```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                    EVALUATION PIPELINE (Ground Truth)                        │
 │              Тестовый датасет: 211 вопросов (HR, IT, Equipment)              │
@@ -205,7 +209,7 @@ curl -X POST http://localhost:8000/api/v1/ask \
 │     Hit Rate@5 и MRR для оценки качества поиска                             │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
-
+```
 
 
 <span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:16px;line-height:1;">🛠️</span> 
