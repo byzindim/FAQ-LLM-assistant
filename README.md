@@ -11,7 +11,7 @@
 
 ---
 
-## <span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:16px;line-height:1;">🎯</span> Что это
+## <span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:16px;line-height:1;"></span> Что это
 
 Production-ready RAG-система для автоматизации ответов на внутренние вопросы сотрудников (HR, IT, корпоративные регламенты). Система использует локальные LLM (без утечки данных в облако), гибридный поиск и детерминированный агентный роутинг.
 
@@ -21,45 +21,45 @@ Production-ready RAG-система для автоматизации ответ
 
 ## <span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:16px;line-height:1;">✨</span> Ключевые особенности
 
-- <span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:14px;line-height:1;">🔍</span> **Гибридный поиск (Advanced RAG):** Семантический `FAISS` (эмбеддинги `bge-m3`) + Лексический `BM25` + слияние через `Reciprocal Rank Fusion (RRF)`.
-- <span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:14px;line-height:1;">🤖</span> **Агентная архитектура:** Детерминированный FSM-роутер на `LangGraph` с 4 намерениями (FAQ, chitchat, out-of-scope, clarification).
-- <span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:14px;line-height:1;">🛡️</span> **Defensive Programming:** 100% валидный структурированный вывод (JSON) благодаря связке `format="json"` (Ollama) + `Pydantic V2` + `json_repair`.
-- <span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:14px;line-height:1;">⚡</span> **Short-Circuiting:** Простые запросы отсекаются на этапе роутера без вызова тяжелого RAG-контура (экономия latency на 70%).
-- <span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:14px;line-height:1;">📊</span> **LLMOps (Langfuse):** Полный трейсинг запросов, waterfall-анализ задержек по каждому узлу графа.
-- <span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:14px;line-height:1;">🐳</span> **Docker-Ready:** Multi-stage сборка и `docker-compose.yml` для оркестрации API и Ollama.
-- <span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:14px;line-height:1;">🎯</span> **100% Точность:** Протестировано на датасете из 211 вопросов (Hit Rate@5 = 1.0, MRR = 1.0).
+- <span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:14px;line-height:1;"></span> **Гибридный поиск (Advanced RAG):** Семантический `FAISS` (эмбеддинги `bge-m3`) + Лексический `BM25` + слияние через `Reciprocal Rank Fusion (RRF)`.
+- <span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:14px;line-height:1;"></span> **Агентная архитектура:** Детерминированный FSM-роутер на `LangGraph` с 4 намерениями (FAQ, chitchat, out-of-scope, clarification).
+- <span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:14px;line-height:1;"></span> **Defensive Programming:** 100% валидный структурированный вывод (JSON) благодаря связке `format="json"` (Ollama) + `Pydantic V2` + `json_repair`.
+- <span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:14px;line-height:1;"></span> **Short-Circuiting:** Простые запросы отсекаются на этапе роутера без вызова тяжелого RAG-контура (экономия latency на 70%).
+- <span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:14px;line-height:1;"></span> **LLMOps (Langfuse):** Полный трейсинг запросов, waterfall-анализ задержек по каждому узлу графа.
+- <span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:14px;line-height:1;"></span> **Docker-Ready:** Multi-stage сборка и `docker-compose.yml` для оркестрации API и Ollama.
+- <span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:14px;line-height:1;"></span> **100% Точность:** Протестировано на датасете из 211 вопросов (Hit Rate@5 = 1.0, MRR = 1.0).
 
 ---
 
-## <span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:16px;line-height:1;">🚀</span> Быстрый старт
+## <span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:16px;line-height:1;"></span> Быстрый старт
 
 ### Вариант 1: Через Docker (Рекомендуется)
 
 git clone https://github.com/byzindim/FAQ-LLM-assistant.git
 cd FAQ-LLM-assistant/07-docker-deployment
 
-# Настройка окружения
+#### Настройка окружения
 cp .env.example .env
 
-# Запуск всех сервисов (API + Ollama)
+#### Запуск всех сервисов (API + Ollama)
 docker-compose up --build
-# → API: http://localhost:8000/docs
-# → Ollama: http://localhost:11434
+#### → API: http://localhost:8000/docs
+#### → Ollama: http://localhost:11434
 
 ### Вариант 2: Локальный запуск (без Docker)
-# 1. Установить Ollama и скачать модели
+#### 1. Установить Ollama и скачать модели
 curl -fsSL https://ollama.com/install.sh | sh
 ollama pull qwen2.5:7b
 ollama pull bge-m3
 
-# 2. Установить Python-зависимости
+#### 2. Установить Python-зависимости
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-# 3. Запустить FastAPI
+#### 3. Запустить FastAPI
 uvicorn app.main:app --reload
-# → http://localhost:8000/docs
+#### → http://localhost:8000/docs
 
 <span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:16px;line-height:1;">⚙️</span> 
 
@@ -148,7 +148,7 @@ curl -X POST http://localhost:8000/api/v1/ask \
   -d '{"question": "Как оформить декретный отпуск?"}'
 
 
-<span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:16px;line-height:1;">📊</span> 
+<span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:16px;line-height:1;"></span> 
 Метрики и Оценка (Evaluation)
 Система протестирована на кастомном Ground Truth датасете из 211 вопросов (HR, IT, Equipment).
 
@@ -212,7 +212,7 @@ curl -X POST http://localhost:8000/api/v1/ask \
 ```
 
 
-<span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:16px;line-height:1;">🛠️</span> 
+<span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:16px;line-height:1;"></span> 
 
 Стек технологий:
 1. LLM Инференс: Ollama (локально, Qwen 2.5-7B для генерации, bge-m3 для эмбеддингов)
@@ -225,7 +225,7 @@ curl -X POST http://localhost:8000/api/v1/ask \
 8. Инфраструктура: Docker, docker-compose
 
 
-<span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:16px;line-height:1;">📂</span> 
+<span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:16px;line-height:1;"></span> 
 Структура проекта
 
 app/
@@ -239,7 +239,7 @@ scripts/
 └── evaluate.py    # Скрипт оценки на датасете (LLM-as-a-Judge)
 
 
-<span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:16px;line-height:1;">🗺️</span> 
+<span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:16px;line-height:1;"></span> 
 
 Roadmap (Зоны роста):
 - Semantic Cache: Внедрение GPTCache для мгновенных ответов на повторяющиеся вопросы.
