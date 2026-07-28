@@ -39,7 +39,7 @@ if not TELEGRAM_TOKEN or not GROQ_API_KEY:
 logger.info("⏳ Загрузка RAG-артефактов и моделей...")
 
 # Модель эмбеддингов
-embedding_model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
+embedding_model = SentenceTransformer('BAAI/bge-m3')
 
 # Загрузка данных
 with open('documents.pkl', 'rb') as f:
