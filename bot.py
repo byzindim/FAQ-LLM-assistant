@@ -6,6 +6,9 @@ import numpy as np
 from threading import Thread
 from typing import List, Dict
 
+from dotenv import load_dotenv
+load_dotenv()  # ← ДОБАВЬ ЭТИ ДВЕ СТРОКИ
+
 import uvicorn
 from fastapi import FastAPI
 from telegram import Update
@@ -14,6 +17,8 @@ from groq import Groq
 from sentence_transformers import SentenceTransformer
 from rank_bm25 import BM25Okapi
 import pymorphy3
+
+
 
 # ==========================================
 # 1. НАСТРОЙКИ И ЛОГИРОВАНИЕ
